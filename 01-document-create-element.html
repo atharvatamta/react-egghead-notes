@@ -1,11 +1,11 @@
 <body>
-  <div id = "root" ></div>
+  <div id = "root" ></div>; // creating an empty container called "div" this is where we will add our new element
   <script type = "text/javascript">
-    const rootElement = document.getElementById("root");
-    const newElement = document.createElement("div");
-    newElement.textContent = "Hello atharva";
-    rootElement.appendChild(newElement);
-    newElement.className = "greeting";
+    const rootElement = document.getElementById("root"); // selecting the container we just created
+    const newElement = document.createElement("div"); // creating a new element called "div"
+    newElement.textContent = "Hello atharva"; // adding text content to the new element
+    rootElement.appendChild(newElement); // appending the new element to the container
+    newElement.className = "greeting"; // adding a classname  to the new element
     newElement.style.color = "blue";
   </script>
 </body>
