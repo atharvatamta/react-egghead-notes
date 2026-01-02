@@ -6,12 +6,13 @@
   <script type="text/babel">
     function Message({children}) {
       return <div className="message">{children}</div>
-    }
-
+    } // this function is a custom React component
+    // it takes props as an argument and returns a React element
+    // components must start with a capital letter
     const element = (
       <div className="container">
-        <Message>Hello World</Message>
-        <Message>Goodbye World</Message>
+        <Message>Hello World</Message> // hello world passed as children prop
+        <Message>Goodbye World</Message> // goodbye world is being passed as children prop
       </div>
     )
 
